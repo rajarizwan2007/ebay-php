@@ -1,14 +1,10 @@
-# EBAY-SDK-PHP
+# EBAY-PHP
 
-**This repository is no longer actively maintained and has been archived.**
-
-This project enables PHP developers to use the [eBay API](https://go.developer.ebay.com/api-documentation) in their PHP code, and build software using services such as [Finding](http://developer.ebay.com/Devzone/finding/Concepts/FindingAPIGuide.html), [Trading](http://developer.ebay.com/DevZone/guides/ebayfeatures/index.html), [Shopping](http://developer.ebay.com/Devzone/shopping/docs/Concepts/ShoppingAPIGuide.html), etc. You can get started by [installing the SDK via Composer](https://github.com/davidtsadler/ebay-sdk-php/wiki/Installation) and by following the [Basic Usage Guide](http://devbay.net/sdk/guides/getting-started/basic-usage.html).
-
-This is a personal project that has been developed by me, [David T. Sadler](https://davidtsadler.com). I decided to create this project to make up for the lack of an official SDK for PHP. It is in no way endorsed, sponsored or maintained by eBay.
+**This repository is updated version of EBAY-SDK-PHP which was abondeded.**
 
 ## Features
 
-  - Compatible with PHP 5.5 or greater.
+  - Compatible with PHP 8.0 or greater.
   - Easy to install with [Composer](http://getcomposer.org/).
   - Compliant with [PSR-1](http://www.php-fig.org/psr/psr-1/), [PSR-2](http://www.php-fig.org/psr/psr-2/) and [PSR-4](http://www.php-fig.org/psr/psr-4/).
 
@@ -19,7 +15,7 @@ This is a personal project that has been developed by me, [David T. Sadler](http
  
 ## Requirements
 
-  - PHP 5.5 or greater with the following extensions:
+  - PHP 8.0 or greater with the following extensions:
       - cURL
       - libxml
   - 64 bit version of PHP recommended as there are some [issues when using the SDK with 32 bit](http://devbay.net/sdk/guides/getting-started/requirements.html#using-the-sdk-with-32-bit-systems).
@@ -27,7 +23,7 @@ This is a personal project that has been developed by me, [David T. Sadler](http
 
 ## Installation
 
-The SDK can be installed with [Composer](http://getcomposer.org/). Please see the [Installation section of the User Guide](https://github.com/davidtsadler/ebay-sdk-php/wiki/Installation) to learn about installing through other means.
+The SDK can be installed with [Composer](http://getcomposer.org/).
 
   1. Install Composer.
 
@@ -38,7 +34,7 @@ The SDK can be installed with [Composer](http://getcomposer.org/). Please see th
   1. Install the SDK.
 
      ```
-     php composer.phar require dts/ebay-sdk-php
+     php composer.phar require rajarizwan2007/ebay-php
      ```
 
   1. Require Composer's autoloader by adding the following line to your code.
